@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Mind wizard</title>
+
+        <title>Contact</title>
+        <link rel="stylesheet" href="Styles/Contact.css" type="text/css">
+        <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+        <link rel="stylesheet" href="contact/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="contact/css/fontawesome-all.min.css" />
+        <link rel="stylesheet" href="contact/css/fa-brands.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700,900,900i" >
+
+
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="150">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                    <a class="navbar-brand" href="index.html"><span class="span-nav">Now</span> You See Review</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mobiles <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="iPhone8.html">iPhone 8</a></li>
+                        <li><a href="SamsungS9.html">Samsung S9</a></li>
+                        <li><a href="SamsungA8.html">Samsung A8</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cars <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="Ferrari%20448GTB.html">Ferrari Spider</a></li>
+                        <li><a href="Toyota.html">Toyota 4Runner</a></li>
+                        <li><a href="Audi%20R8.html">Audi A8</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Books <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="Drama%20books.html">Drama</a></li>
+                        <li><a href="Action%20books.html">Action</a></li>
+                        <li><a href="Romance%20books.html">Romance</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Consoles <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="Playstation%204.html">PlayStation 4</a></li>
+                        <li><a href="Xbox.html">Xbox One</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Movies <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="Action.html">Action</a></li>
+                        <li><a href="comedy.html">Comedy</a></li>
+                        <li><a href="thiller.html">Thriller</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="contactttt.html">Contact Us</a></li>
+                    <form class="navbar-form navbar-left" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search...">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </ul>
+                </div>
+              </div>
+            
+        </nav>
+        <section class="question-section text-center">
+            <div class="container">
+                <h3 class="title">We would like to hear from <span id="none">you</span></h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="left-side text-left">
+                            <h3><span class="span-details">Contact</span> details</h3>
+                            <p class="p-contact"><span class="span-contact">E-mail:</span> tarekmohammed109@yahoo.com</p>
+                            <p class="p-contact"><span class="span-contact">Mobile:</span> +201142290889</p>
+                            <a href="https://www.facebook.com/tarek.mohammed.3720" target="_blank"><i class="fab fa-facebook-square size"></i></a>
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter size"></i></a>
+                            <a href="https://www.instagram.com/tarek_mohammed2/?hl=en" target="_blank"><i class="fab fa-instagram size" ></i></a>
+                            <a href="https://mail.yahoo.com/d/folders/1" target="_blank"><i class="fab fa-yahoo size" ></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="right-side text-left">
+                                <h3><span class="colored">Or Contact</span> Me</h3>
+                                    <form class="contact-form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+                                        <div class="form-group">
+                                            <input class="username form-control" type="text" name="username" placeholder="Type Your Username" />
+                                            <i class="fas fa-user fa-fw"></i>
+                                            <span class="asterisx">*</span>
+                                        </div>  
+                                        <div class="form-group">
+                                            <input class="email form-control" type="email" name="email" placeholder="Pleas Type a Valid Email"  />
+                                            <i class="fas fa-envelope fa-fw"></i>
+                                            <span class="asterisx">*</span>
+                                        </div>
+                                        <input class="form-control" type="text" name="cellphone" placeholder="Type Your Cell Phone" />
+                                        <i class="fas fa-phone fa-fw"></i>
+                                        <div class="form-group">
+                                            <textarea class="message form-control" name="message" placeholder="Your Message!"></textarea>
+                                            <span class="asterisx">*</span>
+                                        </div>
+                                        <input class="btn btn-success" type="submit" value="Send Message">
+                                        <i class="fas fa-paper-plane fa-fw send-icon"></i>
+                                    </form>
+                                </div>
+
+                                <!-- End Form -->
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
+        <footer>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-6">
+                            <div class="links">
+                                <h3 class="title">Links</h3>
+                                <p><a href="index.html">Home</a></p>
+                                <p><a href="Aboutus.html">About Us</a></p>
+                                <p><a href="contactttt.html">Contact Us</a></p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 text-center  hidden-xs">
+                            <div class="social">
+                                <h3 class="title">Contact Us</h3>
+                                <a href="https://www.facebook.com/tarek.mohammed.3720" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/tarek_mohammed2/?hl=en" target="_blank"><i class="fab fa-instagram" ></i></a>
+                                <a href="https://mail.yahoo.com/d/folders/1" target="_blank"><i class="fab fa-yahoo" ></i></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-6">
+                            <div class="links links-right">
+                                <h3 class="title">Sponsors</h3>
+                                <p><i class="fab fa-playstation fa-2x blue"></i><a href="https://www.playstation.com/en-us/" target="_blank">Playstation</a></p>
+                                <p><i class="fab fa-apple fa-2x"></i><a href="https://www.apple.com/eg/" target="_blank">Apple</a></p>
+                                <p><i class="fab fa-youtube fa-2x red"></i><a href="https://www.youtube.com/?gl=EG" target="_blank">Youtube</a></p>
+                                <p><i class="fab fa-amazon fa-2x"></i><a href="https://www.amazon.com/" target="_blank">Amazon</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-footer">
+                        <p class="copyrights">Copyright &copy; All copy rights reserved to TYM</p>
+                        <a href="#" class="privacy" data-toggle="modal" data-target="#privacyModal">Privacy Terms</a>
+                    </div>
+                    <img src="Images/Up.png" class="button" id="goup" alt="go to up " width="50px" height="50px">
+                    <script src="java.js"></script> 
+            </footer>
+    
+
+        <script src="contact/js/jquery-1.12.4.min.js"></script>
+        <script src="contact/js/bootstrap.min.js"></script>
+    </body>
+</html>

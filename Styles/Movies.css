@@ -1,0 +1,498 @@
+body{
+    padding: 0;
+    margin:0 auto;
+    background-image: url(../Images/Light-Grey-Background-Hd-5.jpg);
+    text-align: justify;
+}
+.button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.fa{
+    margin-right: 3px;
+}
+.on {
+    color: red;
+}
+
+.mainreview{
+    border:2px solid auto;
+    padding:5px 20px 0px 20px;
+    margin:50px 0px 50px 0px;
+    background-image: url(../Images/Light-Grey-Background-Hd-5.jpg);
+    box-shadow: 5px 10px 8px dimgray;
+    border-radius: 25px
+}
+.bolder{
+    font-weight:bold;
+}
+
+.lighter{
+    font-weight: 50;
+}
+.normal{
+     font-weight:normal;
+}
+.padding{
+    padding: 0px;
+    margin: auto;
+}
+header ul {
+    font-size: 16px;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ header ul li {
+    float: left;
+}
+
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+.large{
+    font-family:sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.ol{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.h3{
+    font-size: 21px;
+}
+header #branding {
+    text-align: center;
+}
+header #branding h1{
+    margin: 0;
+}
+
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a:hover{
+    text-decoration: none;
+    color: #e8491d;
+    font-weight: bold;
+    transform: translateY(-6px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+header a:active{
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+header .current{
+    margin: 0px;
+    list-style: none;
+    font-size: 18px;
+    background-color: #333563;
+}
+
+.menu{
+    width: 100%;
+    background: #142b47;
+    overflow: auto;
+    
+}
+.search-form{
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+    color: black;
+}
+
+input [type=text]{
+    padding: 82px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+button{
+    float:none;
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position:relative;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+    
+    
+    
+}
+a{
+    color: black;
+    
+}
+.logo{
+    margin: 1px;
+}
+.logo img{
+    border-radius: 5px 5px;
+    box-shadow: 3px 3px 3px #000033;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+header nav ul li ul{
+    display: grid;
+}
+
+#S9{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+@-webkit-keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -104.3%;
+    }
+    30%{
+        left: -104.3%;
+    }
+    40%{
+        left: -204.3%;
+    }
+    50%{
+        left: -204.3%;
+    }
+    60%{
+        left: -304.3%;
+    }
+    70%{
+        left: -304.3%;
+    }
+    80%{
+        left: -404.3%;
+    }
+    90%{
+        left: -404.3%;
+    }
+    100%{
+        left: 0;
+    }
+}
+@-moz-keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    90%{
+        left: -400%;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -104.3%;
+    }
+    30%{
+        left: -104.3%;
+    }
+    40%{
+        left: -204.3%;
+    }
+    50%{
+        left: -204.3%;
+    }
+    60%{
+        left: -304.3%;
+    }
+    70%{
+        left: -304.3%;
+    }
+    80%{
+        left: -404.3%;
+    }
+    90%{
+        left: -404.3%;
+    }
+    100%{
+        left: 0;
+    }
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    animation: slide 10s infinite;
+}
+.p a{
+    color: #e8491d;
+}
+.p a:hover{
+    color:orange;
+}
+.footer{
+    background-color:dimgray;
+    margin: 0;
+    padding: 40px;
+}
+.footer ul{
+    display:flex;
+    text-align: center;
+    position:static;
+    top: 50%;
+    left: 50%;
+}
+.footer ul li{
+    background: #000;
+    margin: 10px;
+    list-style: none;
+    font-size: 24px;
+    transition: .5s;
+    border-radius: 25px;
+}
+.footer ul li a{
+    width: 50px;
+    display: block;
+    color: #fff;
+    padding: 3px;
+    
+}
+.footer ul li:nth-child(1){
+    background: #3b5998;
+}
+.footer ul li:nth-child(2){
+    background: #00aced;
+}
+.footer ul li:nth-child(3){
+    background: #bc2a8d;
+}
+.footer ul li:nth-child(4){
+    background: #7b0099;
+}
+.footer ul li:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+
+#news{
+    margin-top: -10px;
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table td:hover{
+    background-color:bisque;
+    
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 19px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 0px;
+}
+.sidenav ul{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.sidenav a:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+    background-color: #333563;
+    color: white;
+    font-weight: bold;
+}
+.pvideo{
+    text-align: center;
+}
+#spanside{
+    font-size:35px;
+    cursor:pointer
+}
+.spanthriller{
+    color: #e8491d;
+    font-weight: bold;
+}
+/*Comment form*/
+.commentform{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.commentform input:focus{
+    outline: none;
+}
+.commentform  div{
+    position: relative;
+}
+.commentform input{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom:  1px solid darkgray;
+}
+.commentform input + .border{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: black;
+    width: 0;
+    height: 2px;
+    transition: .5s;
+}
+.commentform input:focus + .border{
+    left: 0;
+    width: 100%;
+}
+.commentform .comment{
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    background-color:mediumblue;
+    margin-top: 4px;
+    border-radius: 3px;
+}
+.commentform .cancel{
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 4px;
+    background-color:transparent;
+    color:darkgray;
+}
+.commentform .cancel:hover{
+    color: black;
+}
+.commenttxt{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+/*End of the Comment*/
+@media screen and (max-width: 600px) {
+    header ul {display: grid;}
+    header ul li ul li a{display: grid; background-color: #333563; width: 150px; margin: auto;}
+    .search-form button {float: right; border-radius: 5px;}
+    .search-form input {float: right;}
+    .footer ul li a{display:inline;}
+    #news{font-size: 15px;}
+    .sidenav {padding-top: 15px;}
+    .sidenav ul {font-size: 18px;}
+    .container{width: 100%; margin: auto;}
+    iframe{width: auto;}
+    .logo img{width: 100%; height: 100%;}
+    #slider figure{
+    position: relative; width: 500%; animation: slide 10s infinite;}
+}
