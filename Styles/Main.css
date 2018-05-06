@@ -471,6 +471,21 @@ hr{
 
 /*Footer Start*/
 
+.playstation {
+    color: royalblue;
+}
+
+.apple {
+    color: white;
+}
+
+.youtube {
+    color: red;
+}
+
+.amazon {
+    color: orange;
+}
 
 i.fa-facebook-square:hover, i.fa-facebook-square:focus  {
     color: #3b5998 !important;
