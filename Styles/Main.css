@@ -83,10 +83,6 @@ header #branding h1{
     font-weight: 900;
 }
 
-.navbar{
-    margin-top: 1px;
-}
-
 .dropdown-toggle:hover {
     color: #e8491d !important;
     font-weight:700;
