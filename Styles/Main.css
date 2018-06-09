@@ -93,20 +93,20 @@ header #branding h1{
     font-size: 15px !important;
 }
 
-.navbar-inverse .navbar-nav> .active {
+.navbar-inverse .navbar-nav > .active {
     border-bottom: 2px solid #e8491d ;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav > li > a:hover {
     border-bottom: 2px solid #e8491d ;
 }
 
-.navbar-brand{
+.navbar-brand {
 	font-size:25px !important;
     font-weight: 900;
 }
 
-.span-nav{
+.span-nav { 
     color: #e8491d;
     font-weight: 900;
 }
