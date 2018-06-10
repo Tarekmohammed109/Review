@@ -436,6 +436,21 @@ hr{
 .slide5{
     background-image: url(../Slideshow/camera-grass-hand-105254.jpg);
 }
+.slide6 {
+  background-image: url(../Slideshow/A8infinitedisplay.jpg);
+}
+.slide7 {
+  background-image: url("../Slideshow/maxresdefault.jpg");
+}
+.slide8 {
+  background-image:url(../Slideshow/a8...jpg);
+}
+.slide9{
+    background-image: url(../Slideshow/gsmarena_003.jpg);
+}
+.slide10{
+    background-image: url(../Slideshow/C6jPSzykRZ2Z5eRY7AS8Pd-1200-80.jpg);
+}
 .slide-content {
   display: flex;
   flex-direction: column;
